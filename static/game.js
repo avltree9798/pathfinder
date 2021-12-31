@@ -181,6 +181,8 @@ function init(){
         }
         objects.push(object)
     }
+
+    alert("You can draw an obstacle by dragging your cursor on the canvas");
 }
 
 registerInput();
