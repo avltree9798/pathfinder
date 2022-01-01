@@ -70,7 +70,7 @@ async function astar(){
                 need_to_sort = true;
             }
         }
-        if(need_to_sort || end_node == undefined){
+        if(need_to_sort && end_node == undefined){
             vertexes_to_open = vertexes_to_open.sort(comparer);   
         }
         await sleep(SLEEP_MS);
